@@ -50,7 +50,7 @@ It has been built with ``make build``.
 
 Alternatively, you may build the sources yourself:
 
-.. code: bash
+.. code-block:: console
 
     $ go get https://github.com/dbaty/testfinder
     $ $GOPATH/bin/testfinder -v
@@ -61,9 +61,9 @@ Usage for auto-completion
 =========================
 
 To use with ``fzf`` on ``pytest``, add this in ``.zshrc`` (or adapt
-for your shell)::
+for your shell):
 
-.. console::
+.. code-block:: shell
 
     _fzf_complete_pytest() {
         _fzf_complete "--multi --reverse" "$@" < <(testfinder)
