@@ -68,10 +68,13 @@ for your shell):
     _fzf_complete_pytest() {
         _fzf_complete "--multi --reverse" "$@" < <(testfinder)
     }
+
 -----------------------
+
 If this doesn't work (or if you want to do it with 2 tabulation) you can add those line to your .zshrc
 
-..code-block:: shell
+.. code-block:: shell
+
     fpath=(~/.zsh-completions $fpath)
     autoload -U compinit
     compinit
