@@ -1,0 +1,7 @@
+#compdef pytest
+
+_pytest_complete() {
+    _fzf_complete "--multi --reverse" "$@" < <(testfinder .)
+}
+
+_pytest_complete "$@"
