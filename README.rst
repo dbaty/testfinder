@@ -7,7 +7,7 @@ test runner:
 .. image:: https://raw.githubusercontent.com/dbaty/testfinder/master/docs/demo.svg
    :width: 100%
 
-The demo above is me typing ``pytest`` followed by ``<Maj>-<Tab>``
+The demo above is me typing ``pytest`` followed by ``<Shift>-<Tab>``
 (which is my configured key for "advanced" auto-completion) and then
 typing characters of the test function I am looking for.
 
